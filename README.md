@@ -13,16 +13,18 @@ Finally, we will use the selected model to predict future medical expenses and i
 There are 1338 rows of observations in this dataset, and 7 features (columns). Here Age, BMI, children, and expenses are the four continuous features and we have three nominal features are sex, smoker, and region.
 (The dataset is taken from Kaggle - https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction?resource=download)
 
-# Approach
-The project aims to predict the premium of an individual's health insurance by performing various machine learning tasks such as data preprocessing, data visualization, feature engineering, model building, and model testing.
+# Dataset Description:
+Independent Variables:
+•	Age : The Age of the policy holder 
+•	Sex: The Gender of the policy holder
+•	BMI : Body mass index (BMI) is a measure of body fat based on height and weight of policy holder.
+•	Children : Number of Children of the policy holder
+•	Smoker: Says whether the policy holder is a smoker or non-smoker
+•	Region : The Region where the policy holder belongs to.
+Dependent Variable:
+•	Expenses :  The Premium charged to the policy holder
 
-First, the data is preprocessed to explore and identify any null or missing values, and outliers using pandas and numpy. Then, data visualization techniques are applied using matplotlib and seaborn to gain insights from the dataset.
 
-Next, feature engineering techniques are employed to clean the data and select the most relevant variables for model building. The data is split into training and testing sets and used to train different machine learning algorithms such as linear regression, support vector regressor, random forest regressor, and gradient boosting regressor.
-
-The model's performance is tested on the test data, and the model with the best r2_score and lowest mean absolute error (MAE) is selected. The best model is then saved for future predictions.
-
-Hyperparameter tuning is performed using RandomizedSearchCV and GridSearchCV to get the best parameters.
 
 
 
