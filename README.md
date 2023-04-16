@@ -14,14 +14,23 @@ There are 1338 rows of observations in this dataset, and 7 features (columns). H
 (The dataset is taken from Kaggle - https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction?resource=download)
 
 # Dataset Description:
+
 Independent Variables:
+
 •	Age : The Age of the policy holder 
+
 •	Sex: The Gender of the policy holder
+
 •	BMI : Body mass index (BMI) is a measure of body fat based on height and weight of policy holder.
+
 •	Children : Number of Children of the policy holder
+
 •	Smoker: Says whether the policy holder is a smoker or non-smoker
+
 •	Region : The Region where the policy holder belongs to.
+
 Dependent Variable:
+
 •	Expenses :  The Premium charged to the policy holder
 
 
